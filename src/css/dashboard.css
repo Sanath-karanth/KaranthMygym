@@ -1,0 +1,287 @@
+
+/* ALL Views */
+.HeadContainer-dashboard h1, h2, h3, h4, h5, h6, p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container-guttersfordashboard {
+    --bs-gutter-x: 0px !important;
+    --bs-gutter-y: 0px !important;
+}
+.db-headerTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.db-headerAbout{
+    margin: auto !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+}
+
+       
+/* Mobile View */
+@media (max-width: 767px) {
+    .HeadContainer-dashboard{
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        color: white;
+    }
+    .db-header-cont{
+        width: 100%;
+        height: fit-content;
+        padding: 20px;
+    }
+    .db-headerTitle h1 {
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 14px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .db-headerTitle img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-right: 6px;
+    }
+    .db-headerAbout h3 {
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 12px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .db-card-cont{
+        width: 100%;
+        height: fit-content;
+        padding: 10px 40px 0px 40px;
+    }
+    .db-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: transparent;
+        color: white;
+        border-radius: 10px;
+        margin: 22px;
+        padding: 16px;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+    .db-card:hover{
+        transition: all 0.2s ease-in-out 0.2s;
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2); 
+        padding: 18px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .db-card img{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    .db-card h2{
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+  }
+  
+  /* Tablet View */
+  @media (min-width: 768px) and (max-width: 1199px){
+    .MainContainer-dashboard{
+        width: 100%;
+        height: fit-content;
+    }    
+    .HeadContainer-dashboard{
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        color: white;
+    }
+    .db-header-cont{
+        width: 100%;
+        height: fit-content;
+        padding: 30px;
+    }
+    .db-headerTitle h1 {
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 26px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .db-headerTitle img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .db-headerAbout h3 {
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .db-card-cont{
+        width: 100%;
+        height: fit-content;
+        padding: 10px 40px 0px 40px;
+    }
+    .db-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: transparent;
+        color: white;
+        border-radius: 10px;
+        margin: 25px;
+        padding: 20px;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+    .db-card:hover{
+        transition: all 0.2s ease-in-out 0.2s;
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2); 
+        padding: 22px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .db-card img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    .db-card h2{
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 18px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+  }
+  
+  /* Desktop View */
+  @media (min-width: 1200px) {
+    .HeadContainer-dashboard{
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        color: white;
+    }
+    .db-header-cont{
+        width: 100%;
+        height: fit-content;
+        padding: 40px;
+    }
+    .db-headerTitle h1 {
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 30px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .db-headerTitle img{
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .db-headerAbout h3 {
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .db-card-cont{
+        width: 100%;
+        height: fit-content;
+        padding: 10px 40px 0px 40px;
+    }
+    .db-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: transparent;
+        color: white;
+        border-radius: 10px;
+        margin: 25px;
+        padding: 20px;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    }
+    .db-card:hover{
+        transition: all 0.2s ease-in-out 0.2s;
+        -ms-transform: scale(1.2); /* IE 9 */
+        -webkit-transform: scale(1.2); /* Safari 3-8 */
+        transform: scale(1.2); 
+        padding: 22px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        /* box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; */
+    }
+    .db-card img{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        margin-right: 8px;
+    }
+    .db-card h2{
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 22px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+  }
+  
+
+
+
+
+
+
+
+  
+  /* Large Sektop View */
+  @media (min-width: 1367px) {
+    .HeadContainer-dashboard{
+        margin: 0 auto;
+        max-width: 1300px;
+        height: fit-content;
+    }
+    
+  }
+  
+  @media (min-width: 1729px) {
+    .SubContainer-dashboard{
+        margin: 0 auto;
+        max-width: 1728px;
+        height: fit-content;
+    }
+  }
