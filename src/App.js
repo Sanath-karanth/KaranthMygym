@@ -5,12 +5,14 @@ import {
   Route,
 } from 'react-router-dom';
 import DashboardPage from './components/dashBoardScreen';
+import ExercisePage from './components/exerciseScreen';
 
 
 const App = () => {
   return (
       <Routes>
         <Route path="/" element={<DashboardPage />}></Route>
+        <Route path="/exercise" element={<ExercisePage />}></Route>
       </Routes>
   );
 };

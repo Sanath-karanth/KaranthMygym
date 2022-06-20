@@ -1,0 +1,268 @@
+
+/* ALL Views */
+.HeadContainer-exercise h1, h2, h3, h4, h5, h6, p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.container-guttersforexercise {
+    --bs-gutter-x: 0px !important;
+    --bs-gutter-y: 0px !important;
+}
+.ex-backIcon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+.ex-tabheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.headerIconback{
+    padding-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+.ex-GIF{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ex-GifCard-Title, 
+.ex-GifCard-Gif{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ex-Video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ex-GIF hr{
+    margin: 0.6rem;
+}
+       
+/* Mobile View */
+@media (max-width: 767px) {
+    .HeadContainer-exercise{
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        background-color: #fafafa;
+        padding: 10px;
+    }
+    .ex-backIcon h4{
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 14px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-giftab{
+        padding: 4px 15px 4px 15px;
+        margin: 0px 8px 0px 8px;
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .ex-videotab{
+        padding: 4px 15px 4px 15px;
+        margin: 0px 8px 0px 8px;
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .ex-giftab h3{
+        line-height: 1.3em;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-videotab h3{
+        line-height: 1.3em;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-GifCard{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .ex-GifCard-Gif img{
+        width: 200px;
+        height: fit-content;
+    }
+    .ex-GifCard-Title h3{
+        line-height: 1.3em;
+        font-size: 18px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-GifCard-Gif {
+        width: auto;
+        height: 100%;
+    }
+  }
+  
+  /* Tablet View */
+  @media (min-width: 768px) and (max-width: 1199px){
+    .MainContainer-exercise{
+        width: 100%;
+        height: fit-content;
+    }    
+    .HeadContainer-exercise{
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        background-color: #fafafa;
+        padding: 10px;
+    }
+    .ex-backIcon h4{
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 16px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-giftab{
+        padding: 4px 15px 4px 15px;
+        margin: 0px 12px 0px 12px;
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .ex-videotab{
+        padding: 4px 15px 4px 15px;
+        margin: 0px 12px 0px 12px;
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .ex-giftab h3{
+        line-height: 1.3em;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-videotab h3{
+        line-height: 1.3em;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-GifCard{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .ex-GifCard-Gif img{
+        width: 400px;
+        height: fit-content;
+    }
+    .ex-GifCard-Title h3{
+        line-height: 1.3em;
+        font-size: 24px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-GifCard-Gif {
+        width: auto;
+        height: 100%;
+    }
+  }
+  
+  /* Desktop View */
+  @media (min-width: 1200px) {
+    .HeadContainer-exercise{
+        margin: 0 auto;
+        max-width: 1280px;
+        width: 100%;
+        background-color: #fafafa;
+        padding: 20px;
+    }
+    .ex-backIcon h4{
+        letter-spacing: 0.2em;
+        line-height: 1.3em;
+        font-size: 18px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-giftab{
+        padding: 4px 15px 4px 15px;
+        margin: 0px 12px 0px 12px;
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .ex-videotab{
+        padding: 4px 15px 4px 15px;
+        margin: 0px 12px 0px 12px;
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .ex-giftab h3{
+        line-height: 1.3em;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-videotab h3{
+        line-height: 1.3em;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-GifCard{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+        margin: 20px;
+    }
+    .ex-GifCard-Gif img{
+        width: 400px;
+        height: fit-content;
+    }
+    .ex-GifCard-Title h3{
+        line-height: 1.3em;
+        font-size: 24px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-GifCard-Gif {
+        width: auto;
+        height: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+  
+  /* Large Sektop View */
+  @media (min-width: 1367px) {
+    .HeadContainer-exercise{
+        margin: 0 auto;
+        max-width: 1300px;
+        height: fit-content;
+    }
+    
+  }
+  
+  @media (min-width: 1729px) {
+    .SubContainer-exercise{
+        margin: 0 auto;
+        max-width: 1728px;
+        height: fit-content;
+    }
+  }

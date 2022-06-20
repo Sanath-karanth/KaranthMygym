@@ -1,12 +1,19 @@
 import React, { memo, useState, useEffect, useContext, Fragment } from 'react';
 import '../css/dashboard.css'
 import { useNavigate  } from "react-router-dom";
-import {Navbar,Nav,Container,Row,Col,Button,Card,Modal} from 'react-bootstrap'
+import {Container,Row,Col} from 'react-bootstrap'
 import moment from 'moment';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faQuestionCircle, faCommentDots, faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const DashboardScreen = memo(() => {
+
+    const navigate  = useNavigate();
+
+    const cardClick = (clickval) => {
+        alert(`hello, ${clickval}`);
+        navigate("/exercise", { state: {navigationcontent: clickval }});
+    }
   return (
     <Fragment>
         <div className='MainContainer-dashboard'>
@@ -34,7 +41,7 @@ const DashboardScreen = memo(() => {
                             </Row>
                         </div>
 
-                        <div className='db-card-cont'>
+                        <div className='db-cardmain-cont'>
                             <Row className='gx-0'>
                                 <Col xs={0} sm={0} md={4} lg={4} xl={4} xxl={4} className='db-cardCol'>
                                     <div className='db-cardLeft'>
@@ -43,47 +50,69 @@ const DashboardScreen = memo(() => {
                                 </Col>
                                 <Col xs={12} sm={12} md={8} lg={8} xl={8} xxl={8} className='db-cardCol'>
                                     <div className='db-cardRight'>
-                                        <Row>
+                                        <Row className='gx-0'>
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
-                                                <div className='db-card'>
-                                                    <img src='../images/buildicon2.png' alt='Logo'></img>
-                                                    <h2>Thighs</h2>
+                                                <div className='db-card-cont'>
+                                                    <div className='db-card' onClick={() => cardClick('Thighs')}>
+                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <h2>Thighs</h2>
+                                                    </div>
                                                 </div>
                                             </Col>
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
-                                                <div className='db-card'>
-                                                    <img src='../images/buildicon2.png' alt='Logo'></img>
-                                                    <h2>Chest</h2>
+                                                <div className='db-card-cont'>
+                                                    <div className='db-card' onClick={() => cardClick('Chest')}>
+                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <h2>Chest</h2>
+                                                    </div>
                                                 </div>
                                             </Col>
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
-                                                <div className='db-card'>
-                                                    <img src='../images/buildicon2.png' alt='Logo'></img>
-                                                    <h2>Biseps</h2>
+                                                <div className='db-card-cont'>
+                                                    <div className='db-card' onClick={() => cardClick('Lats')}>
+                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <h2>Lats</h2>
+                                                    </div>
                                                 </div>
                                             </Col>
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
-                                                <div className='db-card'>
-                                                    <img src='../images/buildicon2.png' alt='Logo'></img>
-                                                    <h2>Shoulder</h2>
+                                                <div className='db-card-cont'>
+                                                    <div className='db-card' onClick={() => cardClick('Biseps')}>
+                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <h2>Biceps</h2>
+                                                    </div>
                                                 </div>
                                             </Col>
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
-                                                <div className='db-card'>
-                                                    <img src='../images/buildicon2.png' alt='Logo'></img>
-                                                    <h2>Triceps</h2>
+                                                <div className='db-card-cont'>
+                                                    <div className='db-card' onClick={() => cardClick('Shoulder')}>
+                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <h2>Shoulder</h2>
+                                                    </div>
                                                 </div>
                                             </Col>
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
-                                                <div className='db-card'>
-                                                    <img src='../images/buildicon2.png' alt='Logo'></img>
-                                                    <h2>ABS</h2>
+                                                <div className='db-card-cont'>
+                                                    <div className='db-card' onClick={() => cardClick('Triceps')}>
+                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <h2>Triceps</h2>
+                                                    </div>
                                                 </div>
                                             </Col>
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
-                                                <div className='db-card'>
-                                                    <img src='../images/buildicon2.png' alt='Logo'></img>
-                                                    <h2>Forarms</h2>
+                                                <div className='db-card-cont'>
+                                                    <div className='db-card' onClick={() => cardClick('ABS')}>
+                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <h2>ABS</h2>
+                                                    </div>
+                                                </div>
+                                            </Col>
+                                            <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
+                                                <div className='db-card-cont'>
+                                                    <div className='db-card' onClick={() => cardClick('ForeArms')}>
+                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <h2>ForeArms</h2>
+                                                    </div>
                                                 </div>
                                             </Col>
                                         </Row>

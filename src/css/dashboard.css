@@ -21,7 +21,10 @@
     align-items: center;
     padding-top: 10px;
 }
-
+.db-card-cont{
+    height: fit-content;
+    margin: 24px;
+}
        
 /* Mobile View */
 @media (max-width: 767px) {
@@ -59,7 +62,7 @@
         font-weight: bolder;
         cursor: pointer;
     }
-    .db-card-cont{
+    .db-cardmain-cont{
         width: 100%;
         height: fit-content;
         padding: 10px 40px 0px 40px;
@@ -71,8 +74,7 @@
         background-color: transparent;
         color: white;
         border-radius: 10px;
-        margin: 22px;
-        padding: 16px;
+        padding: 20px;
         box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     }
     .db-card:hover{
@@ -80,7 +82,7 @@
         -ms-transform: scale(1.2); /* IE 9 */
         -webkit-transform: scale(1.2); /* Safari 3-8 */
         transform: scale(1.2); 
-        padding: 18px;
+        padding: 22px;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     }
@@ -140,7 +142,7 @@
         font-weight: bolder;
         cursor: pointer;
     }
-    .db-card-cont{
+    .db-cardmain-cont{
         width: 100%;
         height: fit-content;
         padding: 10px 40px 0px 40px;
@@ -152,7 +154,6 @@
         background-color: transparent;
         color: white;
         border-radius: 10px;
-        margin: 25px;
         padding: 20px;
         box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     }
@@ -217,7 +218,7 @@
         font-weight: bolder;
         cursor: pointer;
     }
-    .db-card-cont{
+    .db-cardmain-cont{
         width: 100%;
         height: fit-content;
         padding: 10px 40px 0px 40px;
@@ -229,7 +230,6 @@
         background-color: transparent;
         color: white;
         border-radius: 10px;
-        margin: 25px;
         padding: 20px;
         box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
         /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
