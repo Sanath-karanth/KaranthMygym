@@ -115,6 +115,8 @@ const ExerciseScreen = memo(() => {
                                     <iframe 
                                         title='Exercise 1' 
                                         src="http://www.youtube.com/embed/lWXhih3xbVc"
+                                        marginheight="0" 
+                                        marginwidth="0"
                                         frameborder="0">
                                     </iframe>
                                 </div>
