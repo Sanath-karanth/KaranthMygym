@@ -11,8 +11,13 @@ const DashboardScreen = memo(() => {
     const navigate  = useNavigate();
 
     const cardClick = (clickval) => {
-        alert(`hello, ${clickval}`);
-        navigate("/exercise", { state: {navigationcontent: clickval }});
+        navigate("/exercise", 
+                    { state: 
+                        {
+                            navigationcontent: clickval 
+                        }
+                    }
+                );
     }
   return (
     <Fragment>
@@ -109,7 +114,7 @@ const DashboardScreen = memo(() => {
                                             </Col>
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
-                                                    <div className='db-card' onClick={() => cardClick('ForeArms')}>
+                                                    <div className='db-card' onClick={() => cardClick('Forearm')}>
                                                         <img src='../images/buildicon2.png' alt='Logo'></img>
                                                         <h2>ForeArms</h2>
                                                     </div>

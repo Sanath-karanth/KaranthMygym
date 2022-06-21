@@ -19,30 +19,35 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-bottom: 4px;
 }
 .headerIconback{
     padding-right: 4px;
     height: 20px;
     width: 20px;
 }
-.ex-GIF{
+.ex-GIF,
+.ex-Video {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 .ex-GifCard-Title, 
-.ex-GifCard-Gif{
+.ex-GifCard-Gif,
+.ex-VideoCard-Title,
+.ex-VideoCard-Video {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.ex-Video{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 .ex-GIF hr{
     margin: 0.6rem;
+}
+.ex-GifCard-Gif,
+.ex-VideoCard-Video {
+    width: auto;
+    height: 100%;
 }
        
 /* Mobile View */
@@ -52,7 +57,7 @@
         max-width: 1280px;
         width: 100%;
         background-color: #fafafa;
-        padding: 10px;
+        padding: 20px 10px 20px 10px;
     }
     .ex-backIcon h4{
         letter-spacing: 0.2em;
@@ -64,14 +69,14 @@
     .ex-giftab{
         padding: 4px 15px 4px 15px;
         margin: 0px 8px 0px 8px;
-        border: 1px solid rgb(161, 161, 161);
+        border: 0.5px solid rgb(209, 209, 209);
         border-radius: 20px;
         cursor: pointer;
     }
     .ex-videotab{
         padding: 4px 15px 4px 15px;
         margin: 0px 8px 0px 8px;
-        border: 1px solid rgb(161, 161, 161);
+        border: 0.5px solid rgb(209, 209, 209);
         border-radius: 20px;
         cursor: pointer;
     }
@@ -93,19 +98,34 @@
         padding: 10px;
         margin: 20px;
     }
+    .ex-GifCard-Title h3{
+        line-height: 1.3em;
+        font-size: 14px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
     .ex-GifCard-Gif img{
         width: 200px;
         height: fit-content;
     }
-    .ex-GifCard-Title h3{
+    .ex-VideoCard{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px 10px 20px 10px;
+        margin: 20px;
+    }
+    .ex-VideoCard-Title{
+        padding-bottom: 10px;
+    }
+    .ex-VideoCard-Title h3{
         line-height: 1.3em;
-        font-size: 18px;
+        font-size: 14px;
         font-family: 'Nunito', sans-serif;
         font-weight: bolder;
     }
-    .ex-GifCard-Gif {
-        width: auto;
-        height: 100%;
+    .ex-VideoCard-Video iframe{
+        width: 200px;
+        height: 150px;
     }
   }
   
@@ -120,7 +140,7 @@
         max-width: 1280px;
         width: 100%;
         background-color: #fafafa;
-        padding: 10px;
+        padding: 20px;
     }
     .ex-backIcon h4{
         letter-spacing: 0.2em;
@@ -132,14 +152,14 @@
     .ex-giftab{
         padding: 4px 15px 4px 15px;
         margin: 0px 12px 0px 12px;
-        border: 1px solid rgb(161, 161, 161);
+        border: 0.5px solid rgb(209, 209, 209);
         border-radius: 20px;
         cursor: pointer;
     }
     .ex-videotab{
         padding: 4px 15px 4px 15px;
         margin: 0px 12px 0px 12px;
-        border: 1px solid rgb(161, 161, 161);
+        border: 0.5px solid rgb(209, 209, 209);
         border-radius: 20px;
         cursor: pointer;
     }
@@ -161,19 +181,34 @@
         padding: 10px;
         margin: 20px;
     }
+    .ex-GifCard-Title h3{
+        line-height: 1.3em;
+        font-size: 20px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
     .ex-GifCard-Gif img{
         width: 400px;
         height: fit-content;
     }
-    .ex-GifCard-Title h3{
+    .ex-VideoCard{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 20px 20px 25px 20px;
+        margin: 20px;
+    }
+    .ex-VideoCard-Title{
+        padding-bottom: 20px;
+    }
+    .ex-VideoCard-Title h3{
         line-height: 1.3em;
-        font-size: 24px;
+        font-size: 20px;
         font-family: 'Nunito', sans-serif;
         font-weight: bolder;
     }
-    .ex-GifCard-Gif {
-        width: auto;
-        height: 100%;
+    .ex-VideoCard-Video iframe{
+        width: 300px;
+        height: 200px;
     }
   }
   
@@ -196,14 +231,14 @@
     .ex-giftab{
         padding: 4px 15px 4px 15px;
         margin: 0px 12px 0px 12px;
-        border: 1px solid rgb(161, 161, 161);
+        border: 0.5px solid rgb(209, 209, 209);
         border-radius: 20px;
         cursor: pointer;
     }
     .ex-videotab{
         padding: 4px 15px 4px 15px;
         margin: 0px 12px 0px 12px;
-        border: 1px solid rgb(161, 161, 161);
+        border: 0.5px solid rgb(209, 209, 209);
         border-radius: 20px;
         cursor: pointer;
     }
@@ -225,20 +260,37 @@
         padding: 10px;
         margin: 20px;
     }
-    .ex-GifCard-Gif img{
-        width: 400px;
-        height: fit-content;
-    }
     .ex-GifCard-Title h3{
         line-height: 1.3em;
         font-size: 24px;
         font-family: 'Nunito', sans-serif;
         font-weight: bolder;
     }
-    .ex-GifCard-Gif {
-        width: auto;
-        height: 100%;
+    .ex-GifCard-Gif img{
+        width: 400px;
+        height: fit-content;
     }
+    .ex-VideoCard{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 20px 20px 25px 20px;
+        margin: 20px;
+    }
+    .ex-VideoCard-Title{
+        padding-bottom: 20px;
+    }
+    .ex-VideoCard-Title h3{
+        line-height: 1.3em;
+        font-size: 24px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bolder;
+    }
+    .ex-VideoCard-Video iframe{
+        width: 400px;
+        height: 300px;
+    }
+    
+
   }
   
 
