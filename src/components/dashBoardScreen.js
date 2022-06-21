@@ -1,10 +1,7 @@
-import React, { memo, useState, useEffect, useContext, Fragment } from 'react';
+import React, { memo, Fragment } from 'react';
 import '../css/dashboard.css'
 import { useNavigate  } from "react-router-dom";
 import {Container,Row,Col} from 'react-bootstrap'
-import moment from 'moment';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faQuestionCircle, faCommentDots, faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const DashboardScreen = memo(() => {
 

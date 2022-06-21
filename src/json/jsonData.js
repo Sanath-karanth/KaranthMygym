@@ -86,3 +86,18 @@ export const gifDataChest = [
             gif: '../images/chest/chest10.gif',
         },
     ];
+
+
+    export const videoDataThighs = [
+        {
+            title: 'Video 1',
+            videoUrl: 'https://www.youtube.com/embed/lWXhih3xbVc'
+        }
+    ]
+    
+    export const videoDataChest = [
+        {
+            title: 'Video 1',
+            videoUrl: 'https://www.youtube.com/embed/65sJFUtJ1BU'
+        }
+    ]

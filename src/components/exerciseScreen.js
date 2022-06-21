@@ -4,7 +4,8 @@ import { useLocation, useNavigate  } from "react-router-dom";
 import {Container,Row,Col} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
-import { gifDataThighs,gifDataChest } from "../json/jsonData"
+import { gifDataThighs, videoDataThighs, 
+         gifDataChest, videoDataChest } from "../json/jsonData"
 
 const ExerciseScreen = memo(() => {
 
@@ -106,21 +107,25 @@ const ExerciseScreen = memo(() => {
                     </Col>
                     <Col xs={0} sm={0} md={8} lg={8} xl={8} xxl={8}>
                         <div className='ex-Video'>
-                            <div className='ex-VideoCard'>
-                                <div className='ex-VideoCard-Title'>
-                                    <h3>Video Exercise 1</h3>
+                            { videoDataThighs.map((videoitem,videokey) => {
+                                return(
+                                <div key={videokey} className='ex-VideoCard'>
+                                    <div className='ex-VideoCard-Title'>
+                                        <h3>{videoitem.title}</h3>
+                                    </div>
+                             
+                                    <div className='ex-VideoCard-Video'>
+                                        <iframe 
+                                            title={videoitem.title} 
+                                            src={videoitem.videoUrl}
+                                            marginheight="0" 
+                                            marginwidth="0"
+                                            frameborder="0">
+                                        </iframe>
+                                    </div>
                                 </div>
-                         
-                                <div className='ex-VideoCard-Video'>
-                                    <iframe 
-                                        title='Exercise 1' 
-                                        src="https://www.youtube.com/embed/lWXhih3xbVc"
-                                        marginheight="0" 
-                                        marginwidth="0"
-                                        frameborder="0">
-                                    </iframe>
-                                </div>
-                            </div>
+                                );
+                            })}
                         </div>
                     </Col>
                     <Col xs={0} sm={0} md={2} lg={2} xl={2} xxl={2}>
@@ -177,9 +182,27 @@ const ExerciseScreen = memo(() => {
    
                        </Col>
                        <Col xs={0} sm={0} md={8} lg={8} xl={8} xxl={8}>
-                           <div className='ex-Video'>
-                               <h1>Video</h1>
-                           </div>
+                        <div className='ex-Video'>
+                            { videoDataChest.map((videoitem,videokey) => {
+                                return(
+                                <div key={videokey} className='ex-VideoCard'>
+                                    <div className='ex-VideoCard-Title'>
+                                        <h3>{videoitem.title}</h3>
+                                    </div>
+                             
+                                    <div className='ex-VideoCard-Video'>
+                                        <iframe 
+                                            title={videoitem.title} 
+                                            src={videoitem.videoUrl}
+                                            marginheight="0" 
+                                            marginwidth="0"
+                                            frameborder="0">
+                                        </iframe>
+                                    </div>
+                                </div>
+                                );
+                            })}
+                        </div>
                        </Col>
                        <Col xs={0} sm={0} md={2} lg={2} xl={2} xxl={2}>
    
