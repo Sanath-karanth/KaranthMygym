@@ -87,6 +87,49 @@ export const gifDataChest = [
         },
     ];
 
+    export const gifDataLats = [
+        {
+            title: 'Lats Back PullDown 1',
+            gif: '../images/lats/lats1.gif',
+        },
+        {
+            title: 'Lats Front PullDown 2',
+            gif: '../images/lats/lats2.gif',
+        },
+        {
+            title: 'Straight Seated RowBack 3',
+            gif: '../images/lats/lats3.gif',
+        },
+        {
+            title: 'Dumbbell SingleArm Row 4',
+            gif: '../images/lats/lats4.gif',
+        },
+        {
+            title: 'Barbell Bent Over RowBack 5',
+            gif: '../images/lats/lats5.gif',
+        },
+        {
+            title: 'Dumbbell Bent Over RowBack 6',
+            gif: '../images/lats/lats6.gif',
+        },
+        {
+            title: 'Cable CloseGrip Straight Pulldown 7',
+            gif: '../images/lats/lats7.gif',
+        },
+        {
+            title: 'Kneeling High Pulley Row 8',
+            gif: '../images/lats/lats8.gif',
+        },
+        {
+            title: 'Cable Curl Seated 9',
+            gif: '../images/lats/lats9.gif',
+        },
+        {
+            title: 'Spider Curl 10',
+            gif: '../images/lats/lats10.gif',
+        },
+    ];
+
     export const gifDataBiceps = [
         {
             title: 'Dumbbell Curl 1',
