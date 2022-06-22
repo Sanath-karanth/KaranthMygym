@@ -2,43 +2,43 @@
 
 export const gifDataThighs = [
         {
-            title: 'Thighs Exercise 1',
+            title: 'Dumbbell Goblet 1',
             gif: '../images/thighs/thighs1.gif',
         },
         {
-            title: 'Thighs Exercise 2',
+            title: 'Barbell Goblet 2',
             gif: '../images/thighs/thighs2.gif',
         },
         {
-            title: 'Thighs Exercise 3',
+            title: 'Dumbbell Lunge 3',
             gif: '../images/thighs/thighs3.gif',
         },
         {
-            title: 'Thighs Exercise 4',
+            title: 'Barbell Lunge 4',
             gif: '../images/thighs/thighs4.gif',
         },
         {
-            title: 'Thighs Exercise 5',
+            title: 'LegPress 5',
             gif: '../images/thighs/thighs5.gif',
         },
         {
-            title: 'Thighs Exercise 6',
+            title: 'Hack Squats 6',
             gif: '../images/thighs/thighs6.gif',
         },
         {
-            title: 'Thighs Exercise 7',
+            title: 'Dumbbell Leg Deadlift 7',
             gif: '../images/thighs/thighs7.gif',
         },
         {
-            title: 'Thighs Exercise 8',
+            title: 'Barbbell Squat 8',
             gif: '../images/thighs/thighs8.gif',
         },
         {
-            title: 'Thighs Exercise 9',
+            title: 'Seated Leg Curl 9',
             gif: '../images/thighs/thighs9.gif',
         },
         {
-            title: 'Thighs Exercise 10',
+            title: 'Barbell Hip Thruster 10',
             gif: '../images/thighs/thighs10.gif',
         },
     ];
@@ -87,17 +87,71 @@ export const gifDataChest = [
         },
     ];
 
+    export const gifDataBiceps = [
+        {
+            title: 'Dumbbell Curl 1',
+            gif: '../images/biceps/biceps1.gif',
+        },
+        {
+            title: 'Barbell Curl 2',
+            gif: '../images/biceps/biceps2.gif',
+        },
+        {
+            title: 'Concentration Dumbbell Curl 3',
+            gif: '../images/biceps/biceps3.gif',
+        },
+        {
+            title: 'Dumbbell Curl Seated 4',
+            gif: '../images/biceps/biceps4.gif',
+        },
+        {
+            title: 'Barbell Curl Seated 5',
+            gif: '../images/biceps/biceps5.gif',
+        },
+        {
+            title: 'Dumbell Curl Inline 6',
+            gif: '../images/biceps/biceps6.gif',
+        },
+        {
+            title: 'Hammer Curl 7',
+            gif: '../images/biceps/biceps7.gif',
+        },
+        {
+            title: 'Cable Curl Up 8',
+            gif: '../images/biceps/biceps8.gif',
+        },
+        {
+            title: 'Cable Curl Seated 9',
+            gif: '../images/biceps/biceps9.gif',
+        },
+        {
+            title: 'Spider Curl 10',
+            gif: '../images/biceps/biceps10.gif',
+        },
+    ];
+
 
     export const videoDataThighs = [
         {
-            title: 'Video 1',
-            videoUrl: 'https://www.youtube.com/embed/lWXhih3xbVc'
+            title: 'Thighs Video 1',
+            videoUrl: 'https://www.youtube.com/embed/LLp8zCB3zXc'
         }
     ]
     
     export const videoDataChest = [
         {
-            title: 'Video 1',
+            title: 'Chest Video 1',
             videoUrl: 'https://www.youtube.com/embed/65sJFUtJ1BU'
+        },
+        {
+            title: 'Chest Video 2',
+            videoUrl: 'https://www.youtube.com/embed/lWXhih3xbVc'
+        }
+    ]
+
+    export const videoDataBiceps = [
+        {
+            title: 'Biceps Video 1',
+            videoUrl: 'https://www.youtube.com/embed/mqfzsbV0lUs'
         }
     ]
