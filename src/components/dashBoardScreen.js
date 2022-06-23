@@ -61,7 +61,7 @@ const DashboardScreen = memo(() => {
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
                                                     <div className='db-card' onClick={() => cardClick('Thighs')}>
-                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <img src='../images/dumbbelllogo.gif' alt='Logo'></img>
                                                         <h2>Thighs</h2>
                                                     </div>
                                                 </div>
@@ -69,7 +69,7 @@ const DashboardScreen = memo(() => {
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
                                                     <div className='db-card' onClick={() => cardClick('Chest')}>
-                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <img src='../images/dumbbelllogo.gif' alt='Logo'></img>
                                                         <h2>Chest</h2>
                                                     </div>
                                                 </div>
@@ -77,7 +77,7 @@ const DashboardScreen = memo(() => {
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
                                                     <div className='db-card' onClick={() => cardClick('Lats')}>
-                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <img src='../images/dumbbelllogo.gif' alt='Logo'></img>
                                                         <h2>Lats</h2>
                                                     </div>
                                                 </div>
@@ -85,7 +85,7 @@ const DashboardScreen = memo(() => {
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
                                                     <div className='db-card' onClick={() => cardClick('Biseps')}>
-                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <img src='../images/dumbbelllogo.gif' alt='Logo'></img>
                                                         <h2>Biceps</h2>
                                                     </div>
                                                 </div>
@@ -93,7 +93,7 @@ const DashboardScreen = memo(() => {
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
                                                     <div className='db-card' onClick={() => cardClick('Shoulder')}>
-                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <img src='../images/dumbbelllogo.gif' alt='Logo'></img>
                                                         <h2>Shoulder</h2>
                                                     </div>
                                                 </div>
@@ -101,7 +101,7 @@ const DashboardScreen = memo(() => {
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
                                                     <div className='db-card' onClick={() => cardClick('Triceps')}>
-                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <img src='../images/dumbbelllogo.gif' alt='Logo'></img>
                                                         <h2>Triceps</h2>
                                                     </div>
                                                 </div>
@@ -109,7 +109,7 @@ const DashboardScreen = memo(() => {
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
                                                     <div className='db-card' onClick={() => cardClick('ABS')}>
-                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <img src='../images/dumbbelllogo.gif' alt='Logo'></img>
                                                         <h2>ABS</h2>
                                                     </div>
                                                 </div>
@@ -117,7 +117,7 @@ const DashboardScreen = memo(() => {
                                             <Col xs={12} sm={12} md={6} lg={5} xl={4} xxl={4}>
                                                 <div className='db-card-cont'>
                                                     <div className='db-card' onClick={() => cardClick('Forearm')}>
-                                                        <img src='../images/buildicon2.png' alt='Logo'></img>
+                                                        <img src='../images/dumbbelllogo.gif' alt='Logo'></img>
                                                         <h2>ForeArms</h2>
                                                     </div>
                                                 </div>

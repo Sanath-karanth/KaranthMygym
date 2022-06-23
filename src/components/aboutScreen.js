@@ -24,7 +24,7 @@ const AboutScreen = memo(() => {
                 <div className='HeadContainer-about' 
                 style={
                     { 
-                        backgroundImage: "linear-gradient(to bottom, rgba(40, 48, 72, 1), rgba(28, 216, 210, 0.7)),url('../images/background0.jpg')", 
+                        backgroundImage: "linear-gradient(to bottom, rgba(0, 65, 106, 1), rgba(41, 46, 73, 0.6)),url('../images/background5.jpg')", 
                     }
                 }>
                     <div className='about-header'>
@@ -42,13 +42,13 @@ const AboutScreen = memo(() => {
                     <div className='cardcontent'>
                         <div className='card-cover-image'>
                         <img
-                            src='./images/Sanathprofile2.jpg'
+                            src='./images/profile/Sanathcover1.jpg'
                             alt='Cardimages here'
                             >
                         </img>
                         <div className='card-profile-image'>
                             <img
-                                src='./images/Sanath2.jpg'
+                                src='./images/profile/Sanath1.jpg'
                                 alt='Cardimages here'
                                 >
                             </img>

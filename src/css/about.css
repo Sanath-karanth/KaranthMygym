@@ -215,7 +215,8 @@
     .card-cover-image img{
         display: block;
         object-fit: cover;
-        object-position: center top;
+        /* object-position: center top; */
+        object-position: 50% 50%;
         width: 100%;
         height: 200px;
         border-top-left-radius: 15px;
