@@ -87,7 +87,7 @@ export const gifDataChest = [
         },
     ];
 
-    export const gifDataLats = [
+export const gifDataLats = [
         {
             title: 'Lats Back PullDown 1',
             gif: '../images/lats/lats1.gif',
@@ -130,7 +130,7 @@ export const gifDataChest = [
         },
     ];
 
-    export const gifDataBiceps = [
+export const gifDataBiceps = [
         {
             title: 'Dumbbell Curl 1',
             gif: '../images/biceps/biceps1.gif',
@@ -172,16 +172,188 @@ export const gifDataChest = [
             gif: '../images/biceps/biceps10.gif',
         },
     ];
+    
+export const gifDataShoulder = [
+        {
+            title: 'Plate RoundArm 1',
+            gif: '../images/shoulder/shoulder1.gif',
+        },
+        {
+            title: 'Clubbell Shoulder 2',
+            gif: '../images/shoulder/shoulder2.gif',
+        },
+        {
+            title: 'Dumbbell SingleHand ShoulderPress 3',
+            gif: '../images/shoulder/shoulder3.gif',
+        },
+        {
+            title: 'Dumbbell Seated ShoulderPress 4',
+            gif: '../images/shoulder/shoulder4.gif',
+        },
+        {
+            title: 'Dumbbell Seated Lateral Raise Fly 5',
+            gif: '../images/shoulder/shoulder5.gif',
+        },
+        {
+            title: 'Dumbbell Stand Lateral Raise Fly 6',
+            gif: '../images/shoulder/shoulder6.gif',
+        },
+        {
+            title: 'Shoulder W-Press 7',
+            gif: '../images/shoulder/shoulder7.gif',
+        },
+        {
+            title: 'Dumbbell Side Lateral Raise 8',
+            gif: '../images/shoulder/shoulder8.gif',
+        },
+        {
+            title: 'Shoulder UpRightRow 9',
+            gif: '../images/shoulder/shoulder9.gif',
+        },
+        {
+            title: 'Dumbbell Shrug Traps 10',
+            gif: '../images/shoulder/shoulder10.gif',
+        },
+    ];
 
+export const gifDataTriceps = [
+        {
+            title: 'Plate RoundArm 1',
+            gif: '../images/shoulder/shoulder1.gif',
+        },
+        {
+            title: 'Clubbell Shoulder 2',
+            gif: '../images/shoulder/shoulder2.gif',
+        },
+        {
+            title: 'Dumbbell SingleHand ShoulderPress 3',
+            gif: '../images/shoulder/shoulder3.gif',
+        },
+        {
+            title: 'Dumbbell Seated ShoulderPress 4',
+            gif: '../images/shoulder/shoulder4.gif',
+        },
+        {
+            title: 'Dumbbell Seated Lateral Raise Fly 5',
+            gif: '../images/shoulder/shoulder5.gif',
+        },
+        {
+            title: 'Dumbbell Stand Lateral Raise Fly 6',
+            gif: '../images/shoulder/shoulder6.gif',
+        },
+        {
+            title: 'Shoulder W-Press 7',
+            gif: '../images/shoulder/shoulder7.gif',
+        },
+        {
+            title: 'Dumbbell Side Lateral Raise 8',
+            gif: '../images/shoulder/shoulder8.gif',
+        },
+        {
+            title: 'Shoulder UpRightRow 9',
+            gif: '../images/shoulder/shoulder9.gif',
+        },
+        {
+            title: 'Dumbbell Shrug Traps 10',
+            gif: '../images/shoulder/shoulder10.gif',
+        },
+    ];
 
-    export const videoDataThighs = [
+export const gifDataABS = [
+        {
+            title: 'Plate RoundArm 1',
+            gif: '../images/shoulder/shoulder1.gif',
+        },
+        {
+            title: 'Clubbell Shoulder 2',
+            gif: '../images/shoulder/shoulder2.gif',
+        },
+        {
+            title: 'Dumbbell SingleHand ShoulderPress 3',
+            gif: '../images/shoulder/shoulder3.gif',
+        },
+        {
+            title: 'Dumbbell Seated ShoulderPress 4',
+            gif: '../images/shoulder/shoulder4.gif',
+        },
+        {
+            title: 'Dumbbell Seated Lateral Raise Fly 5',
+            gif: '../images/shoulder/shoulder5.gif',
+        },
+        {
+            title: 'Dumbbell Stand Lateral Raise Fly 6',
+            gif: '../images/shoulder/shoulder6.gif',
+        },
+        {
+            title: 'Shoulder W-Press 7',
+            gif: '../images/shoulder/shoulder7.gif',
+        },
+        {
+            title: 'Dumbbell Side Lateral Raise 8',
+            gif: '../images/shoulder/shoulder8.gif',
+        },
+        {
+            title: 'Shoulder UpRightRow 9',
+            gif: '../images/shoulder/shoulder9.gif',
+        },
+        {
+            title: 'Dumbbell Shrug Traps 10',
+            gif: '../images/shoulder/shoulder10.gif',
+        },
+    ];
+
+export const gifDataForearms = [
+        {
+            title: 'Plate RoundArm 1',
+            gif: '../images/shoulder/shoulder1.gif',
+        },
+        {
+            title: 'Clubbell Shoulder 2',
+            gif: '../images/shoulder/shoulder2.gif',
+        },
+        {
+            title: 'Dumbbell SingleHand ShoulderPress 3',
+            gif: '../images/shoulder/shoulder3.gif',
+        },
+        {
+            title: 'Dumbbell Seated ShoulderPress 4',
+            gif: '../images/shoulder/shoulder4.gif',
+        },
+        {
+            title: 'Dumbbell Seated Lateral Raise Fly 5',
+            gif: '../images/shoulder/shoulder5.gif',
+        },
+        {
+            title: 'Dumbbell Stand Lateral Raise Fly 6',
+            gif: '../images/shoulder/shoulder6.gif',
+        },
+        {
+            title: 'Shoulder W-Press 7',
+            gif: '../images/shoulder/shoulder7.gif',
+        },
+        {
+            title: 'Dumbbell Side Lateral Raise 8',
+            gif: '../images/shoulder/shoulder8.gif',
+        },
+        {
+            title: 'Shoulder UpRightRow 9',
+            gif: '../images/shoulder/shoulder9.gif',
+        },
+        {
+            title: 'Dumbbell Shrug Traps 10',
+            gif: '../images/shoulder/shoulder10.gif',
+        },
+    ];
+
+// <----------------    Video Data    ----------------------> //
+export const videoDataThighs = [
         {
             title: 'Thighs Video 1',
             videoUrl: 'https://www.youtube.com/embed/LLp8zCB3zXc'
         }
     ]
     
-    export const videoDataChest = [
+export const videoDataChest = [
         {
             title: 'Chest Video 1',
             videoUrl: 'https://www.youtube.com/embed/65sJFUtJ1BU'
@@ -192,9 +364,44 @@ export const gifDataChest = [
         }
     ]
 
-    export const videoDataBiceps = [
+export const videoDataLats = [
+        {
+            title: 'Lats Video 1',
+            videoUrl: 'https://www.youtube.com/embed/EZe2uJTHeHI'
+        }
+    ]
+
+export const videoDataBiceps = [
         {
             title: 'Biceps Video 1',
             videoUrl: 'https://www.youtube.com/embed/mqfzsbV0lUs'
+        }
+    ]
+
+export const videoDataShoulder = [
+        {
+            title: 'Shoulder Video 1',
+            videoUrl: 'https://www.youtube.com/embed/Vk3Q8WvUwf4'
+        }
+    ]
+
+export const videoDataTriceps = [
+        {
+            title: 'Triceps Video 1',
+            videoUrl: 'https://www.youtube.com/embed/LbFKOOxEwUY'
+        }
+    ]
+
+export const videoDataABS = [
+        {
+            title: 'ABS Video 1',
+            videoUrl: 'https://www.youtube.com/embed/04xSd6s-Gc4'
+        }
+    ]
+
+export const videoDataForearms = [
+        {
+            title: 'Forearms Video 1',
+            videoUrl: 'https://www.youtube.com/embed/_6XvWX25Qpw'
         }
     ]

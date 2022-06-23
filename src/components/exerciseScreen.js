@@ -7,7 +7,11 @@ import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 import { gifDataThighs, videoDataThighs, 
          gifDataChest, videoDataChest,
          gifDataBiceps, videoDataBiceps,
-         gifDataLats } from "../json/jsonData"
+         gifDataLats, videoDataLats,
+         gifDataShoulder, videoDataShoulder,
+         gifDataTriceps, videoDataTriceps,
+         gifDataABS, videoDataABS,
+         gifDataForearms, videoDataForearms } from "../json/jsonData"
 
 const ExerciseScreen = memo(() => {
 
@@ -261,7 +265,7 @@ const ExerciseScreen = memo(() => {
                        </Col>
                        <Col xs={0} sm={0} md={8} lg={8} xl={8} xxl={8}>
                            <div className='ex-Video'>
-                               { videoDataThighs.map((videoitem,videokey) => {
+                               { videoDataLats.map((videoitem,videokey) => {
                                    return(
                                    <div key={videokey} className='ex-VideoCard'>
                                        <div className='ex-VideoCard-Title'>
@@ -377,9 +381,79 @@ const ExerciseScreen = memo(() => {
     }
 
     const ShoulderComponent = () => {
-        <Fragment>
-            
-        </Fragment>
+        return(
+            <Fragment>
+               { gifcontdisplay ? 
+               <div className='ex-GIFContent'>
+                   <Row className='gx-0'>
+                       <Col xs={0} sm={0} md={3} lg={2} xl={2} xxl={2}>
+   
+                       </Col>
+                       <Col xs={0} sm={0} md={8} lg={8} xl={8} xxl={8}>
+                           <div className='ex-GIF'>
+                               { gifDataShoulder.map((gifitem,gifkey) => {
+                                   return(
+                                   <div key={gifkey} className='ex-GifCard'>
+                                       <div className='ex-GifCard-Title'>
+                                           <h3>{gifitem.title}</h3>
+                                       </div>
+                                       <hr />
+                                       <div className='ex-GifCard-Gif'>
+                                           <img src={gifitem.gif} alt={gifitem.title} ></img>
+                                       </div>
+                                   </div>
+                                   )
+                               })}
+                           </div>
+                       </Col>
+                       <Col xs={0} sm={0} md={2} lg={2} xl={2} xxl={2}>
+   
+                       </Col>
+                   </Row>
+               </div>
+               : 
+               null    
+               }
+   
+               { videocontdisplay ? 
+               <div className='ex-VideoContent'>
+                   <Row className='gx-0'>
+                       <Col xs={0} sm={0} md={2} lg={2} xl={2} xxl={2}>
+   
+                       </Col>
+                       <Col xs={0} sm={0} md={8} lg={8} xl={8} xxl={8}>
+                           <div className='ex-Video'>
+                               { videoDataShoulder.map((videoitem,videokey) => {
+                                   return(
+                                   <div key={videokey} className='ex-VideoCard'>
+                                       <div className='ex-VideoCard-Title'>
+                                           <h3>{videoitem.title}</h3>
+                                       </div>
+                                
+                                       <div className='ex-VideoCard-Video'>
+                                           <iframe 
+                                               title={videoitem.title} 
+                                               src={videoitem.videoUrl}
+                                               marginheight="0" 
+                                               marginwidth="0"
+                                               frameborder="0">
+                                           </iframe>
+                                       </div>
+                                   </div>
+                                   );
+                               })}
+                           </div>
+                       </Col>
+                       <Col xs={0} sm={0} md={2} lg={2} xl={2} xxl={2}>
+   
+                       </Col>
+                   </Row>
+               </div>
+               : 
+               null    
+               }
+           </Fragment>
+           );
     }
 
     const AbsComponent = () => {

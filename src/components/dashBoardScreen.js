@@ -16,6 +16,11 @@ const DashboardScreen = memo(() => {
                     }
                 );
     }
+
+    const aboutClick = () => {
+        navigate("/about");
+    }
+
   return (
     <Fragment>
         <div className='MainContainer-dashboard'>
@@ -36,7 +41,7 @@ const DashboardScreen = memo(() => {
                                     </div>
                                 </Col>
                                 <Col xs={2} sm={2} md={4} lg={4} xl={4} xxl={4}>
-                                    <div className='db-headerAbout'>
+                                    <div className='db-headerAbout' onClick={aboutClick}>
                                         <h3>About</h3>
                                     </div>
                                 </Col>

@@ -6,13 +6,14 @@ import {
 } from 'react-router-dom';
 import DashboardPage from './components/dashBoardScreen';
 import ExercisePage from './components/exerciseScreen';
-
+import AboutPage from './components/aboutScreen';
 
 const App = () => {
   return (
       <Routes>
         <Route path="/" element={<DashboardPage />}></Route>
         <Route path="/exercise" element={<ExercisePage />}></Route>
+        <Route path="/about" element={<AboutPage />}></Route>
       </Routes>
   );
 };
