@@ -24,7 +24,7 @@ const AboutScreen = memo(() => {
                 <div className='HeadContainer-about' 
                 style={
                     { 
-                        backgroundImage: "linear-gradient(to bottom, rgba(0, 65, 106, 1), rgba(41, 46, 73, 0.6)),url('../images/background5.jpg')", 
+                        backgroundImage: "linear-gradient(to bottom, rgba(0, 65, 106, 1), rgba(41, 46, 73, 0.6)),url('../images/background7.jpg')", 
                     }
                 }>
                     <div className='about-header'>

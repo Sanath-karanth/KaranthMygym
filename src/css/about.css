@@ -6,10 +6,6 @@
     margin: 0 !important;
     padding: 0 !important;
 }
-.container-guttersforabout {
-    --bs-gutter-x: 0px !important;
-    --bs-gutter-y: 0px !important;
-}
 .about-header{
     display: flex;
     justify-content: flex-start;
@@ -49,7 +45,7 @@
 }
 .carddesp-cont h6{
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 .iconstyle{
     padding-right: 6px;
@@ -132,7 +128,7 @@
     }
     .cardtitle-cont h2{
         font-size: 28px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
         text-align: left;
         letter-spacing: 0px;
         opacity: 1;
@@ -185,7 +181,7 @@
     }
     .cardtitle-cont h2{
         font-size: 28px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
         text-align: left;
         letter-spacing: 0px;
         opacity: 1;
@@ -215,8 +211,7 @@
     .card-cover-image img{
         display: block;
         object-fit: cover;
-        /* object-position: center top; */
-        object-position: 50% 50%;
+        object-position: center top;
         width: 100%;
         height: 200px;
         border-top-left-radius: 15px;
@@ -236,7 +231,7 @@
     }
     .cardtitle-cont h2{
         font-size: 28px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
         text-align: left;
         letter-spacing: 0px;
         opacity: 1;
