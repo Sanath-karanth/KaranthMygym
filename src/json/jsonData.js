@@ -144,11 +144,11 @@ export const gifDataBiceps = [
             gif: '../images/biceps/biceps3.gif',
         },
         {
-            title: 'Dumbbell Curl Seated 4',
+            title: 'Dumbbell Preacher Curl Seated 4',
             gif: '../images/biceps/biceps4.gif',
         },
         {
-            title: 'Barbell Curl Seated 5',
+            title: 'Barbell Preacher Curl Seated 5',
             gif: '../images/biceps/biceps5.gif',
         },
         {
@@ -218,130 +218,130 @@ export const gifDataShoulder = [
 
 export const gifDataTriceps = [
         {
-            title: 'Plate RoundArm 1',
-            gif: '../images/shoulder/shoulder1.gif',
+            title: 'Dumbbell SingleArm OverHead 1',
+            gif: '../images/triceps/triceps1.gif',
         },
         {
-            title: 'Clubbell Shoulder 2',
-            gif: '../images/shoulder/shoulder2.gif',
+            title: 'Single Dumbbell Back Pullover 2',
+            gif: '../images/triceps/triceps2.gif',
         },
         {
-            title: 'Dumbbell SingleHand ShoulderPress 3',
-            gif: '../images/shoulder/shoulder3.gif',
+            title: 'Rope Front Pulldown 3',
+            gif: '../images/triceps/triceps3.gif',
         },
         {
-            title: 'Dumbbell Seated ShoulderPress 4',
-            gif: '../images/shoulder/shoulder4.gif',
+            title: 'Overhead Back Pulldown 4',
+            gif: '../images/triceps/triceps4.gif',
         },
         {
-            title: 'Dumbbell Seated Lateral Raise Fly 5',
-            gif: '../images/shoulder/shoulder5.gif',
+            title: 'Triceps Bench Dips 5',
+            gif: '../images/triceps/triceps5.gif',
         },
         {
-            title: 'Dumbbell Stand Lateral Raise Fly 6',
-            gif: '../images/shoulder/shoulder6.gif',
+            title: 'Dumbbell Kickbacks 6',
+            gif: '../images/triceps/triceps6.gif',
         },
         {
-            title: 'Shoulder W-Press 7',
-            gif: '../images/shoulder/shoulder7.gif',
+            title: 'Barbell Flat CloseGrip OverHead 7',
+            gif: '../images/triceps/triceps7.gif',
         },
         {
             title: 'Dumbbell Side Lateral Raise 8',
-            gif: '../images/shoulder/shoulder8.gif',
+            gif: '../images/triceps/triceps8.gif',
         },
         {
-            title: 'Shoulder UpRightRow 9',
-            gif: '../images/shoulder/shoulder9.gif',
+            title: 'triceps UpRightRow 9',
+            gif: '../images/triceps/triceps9.gif',
         },
         {
             title: 'Dumbbell Shrug Traps 10',
-            gif: '../images/shoulder/shoulder10.gif',
+            gif: '../images/triceps/triceps10.gif',
         },
     ];
 
 export const gifDataABS = [
         {
-            title: 'Plate RoundArm 1',
-            gif: '../images/shoulder/shoulder1.gif',
+            title: 'Hanging Legs Raise 1',
+            gif: '../images/abs/abs1.gif',
         },
         {
-            title: 'Clubbell Shoulder 2',
-            gif: '../images/shoulder/shoulder2.gif',
+            title: 'Dumbbell Side Bend 2',
+            gif: '../images/abs/abs2.gif',
         },
         {
-            title: 'Dumbbell SingleHand ShoulderPress 3',
-            gif: '../images/shoulder/shoulder3.gif',
+            title: 'Vertical Leg Raise On Hips 3',
+            gif: '../images/abs/abs3.gif',
         },
         {
-            title: 'Dumbbell Seated ShoulderPress 4',
-            gif: '../images/shoulder/shoulder4.gif',
+            title: 'Incline Seated BenchPress 4',
+            gif: '../images/abs/abs4.gif',
         },
         {
-            title: 'Dumbbell Seated Lateral Raise Fly 5',
-            gif: '../images/shoulder/shoulder5.gif',
+            title: 'Cruch Exercise 5',
+            gif: '../images/abs/abs5.gif',
         },
         {
-            title: 'Dumbbell Stand Lateral Raise Fly 6',
-            gif: '../images/shoulder/shoulder6.gif',
+            title: 'Standing Cable Crunch 6',
+            gif: '../images/abs/abs6.gif',
         },
         {
-            title: 'Shoulder W-Press 7',
-            gif: '../images/shoulder/shoulder7.gif',
+            title: 'Seated Cable Crunch 7',
+            gif: '../images/abs/abs7.gif',
         },
         {
-            title: 'Dumbbell Side Lateral Raise 8',
-            gif: '../images/shoulder/shoulder8.gif',
+            title: 'Seated Bench Leg Pull In 8',
+            gif: '../images/abs/abs8.gif',
         },
         {
-            title: 'Shoulder UpRightRow 9',
-            gif: '../images/shoulder/shoulder9.gif',
+            title: 'Leg Raise Dragon Flag 9',
+            gif: '../images/abs/abs9.gif',
         },
         {
-            title: 'Dumbbell Shrug Traps 10',
-            gif: '../images/shoulder/shoulder10.gif',
+            title: 'Planks 10',
+            gif: '../images/abs/abs10.gif',
         },
     ];
 
 export const gifDataForearms = [
         {
-            title: 'Plate RoundArm 1',
-            gif: '../images/shoulder/shoulder1.gif',
+            title: 'Dumbbell Seated Wrist Curl 1',
+            gif: '../images/forearm/forearm1.gif',
         },
         {
-            title: 'Clubbell Shoulder 2',
-            gif: '../images/shoulder/shoulder2.gif',
+            title: 'Barbell Seated Wrist Curl 2',
+            gif: '../images/forearm/forearm2.gif',
         },
         {
-            title: 'Dumbbell SingleHand ShoulderPress 3',
-            gif: '../images/shoulder/shoulder3.gif',
+            title: 'Barbell Standing Reverse GripCurl 3',
+            gif: '../images/forearm/forearm3.gif',
         },
         {
-            title: 'Dumbbell Seated ShoulderPress 4',
-            gif: '../images/shoulder/shoulder4.gif',
+            title: 'Plate Wrist Roller 4',
+            gif: '../images/forearm/forearm4.gif',
         },
         {
-            title: 'Dumbbell Seated Lateral Raise Fly 5',
-            gif: '../images/shoulder/shoulder5.gif',
+            title: 'Dumbbell Forearm twist 5',
+            gif: '../images/forearm/forearm5.gif',
         },
         {
-            title: 'Dumbbell Stand Lateral Raise Fly 6',
-            gif: '../images/shoulder/shoulder6.gif',
+            title: 'Arm twist Hand Gripper 6',
+            gif: '../images/forearm/forearm6.gif',
         },
         {
-            title: 'Shoulder W-Press 7',
-            gif: '../images/shoulder/shoulder7.gif',
+            title: 'Cable OneArm Wrist Curl 7',
+            gif: '../images/forearm/forearm7.gif',
         },
         {
             title: 'Dumbbell Side Lateral Raise 8',
-            gif: '../images/shoulder/shoulder8.gif',
+            gif: '../images/forearm/forearm8.gif',
         },
         {
-            title: 'Shoulder UpRightRow 9',
-            gif: '../images/shoulder/shoulder9.gif',
+            title: 'forearm UpRightRow 9',
+            gif: '../images/forearm/forearm9.gif',
         },
         {
             title: 'Dumbbell Shrug Traps 10',
-            gif: '../images/shoulder/shoulder10.gif',
+            gif: '../images/forearm/forearm10.gif',
         },
     ];
 

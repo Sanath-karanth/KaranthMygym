@@ -98,9 +98,9 @@
     .MainAbout-cont{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         min-height: 100vh;
+        padding: 20px 0px 0px 0px;
     }
     .cardtext-cont{
         padding: 60px 20px 0px 20px;
@@ -151,9 +151,9 @@
     .MainAbout-cont{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         min-height: 100vh;
+        padding: 20px 0px 0px 0px;
     }
     .cardtext-cont{
         padding: 40px 40px 0px 40px;
@@ -200,10 +200,9 @@
     .MainAbout-cont{
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         min-height: 100vh;
-        padding: -10px 0px 0px 0px;
+        padding: 20px 0px 0px 0px;
     }
     .cardtext-cont{
         padding: 40px 40px 0px 40px;
