@@ -37,7 +37,7 @@ const DashboardScreen = memo(() => {
                                 <Col xs={10} sm={10} md={8} lg={8} xl={8} xxl={8}>
                                     <div className='db-headerTitle'>
                                         <img src='../images/buildicon1.png' alt='Logo'></img>
-                                        <h1>KARANTH GYM</h1>
+                                        <h1>MY GYM</h1>
                                     </div>
                                 </Col>
                                 <Col xs={2} sm={2} md={4} lg={4} xl={4} xxl={4}>

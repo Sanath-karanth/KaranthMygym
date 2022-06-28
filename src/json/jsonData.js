@@ -97,15 +97,15 @@ export const gifDataLats = [
             gif: '../images/lats/lats2.gif',
         },
         {
-            title: 'Straight Seated RowBack 3',
+            title: 'Cable CloseGrip Straight Pulldown 3',
             gif: '../images/lats/lats3.gif',
         },
         {
-            title: 'Dumbbell SingleArm Row 4',
+            title: 'Straight Seated RowBack 4',
             gif: '../images/lats/lats4.gif',
         },
         {
-            title: 'Barbell Bent Over RowBack 5',
+            title: 'Dumbbell SingleArm Row 5',
             gif: '../images/lats/lats5.gif',
         },
         {
@@ -113,7 +113,7 @@ export const gifDataLats = [
             gif: '../images/lats/lats6.gif',
         },
         {
-            title: 'Cable CloseGrip Straight Pulldown 7',
+            title: 'Barbell Bent Over RowBack 7',
             gif: '../images/lats/lats7.gif',
         },
         {
@@ -121,13 +121,13 @@ export const gifDataLats = [
             gif: '../images/lats/lats8.gif',
         },
         {
-            title: 'Cable Curl Seated 9',
+            title: 'Cable Standing Rear-Delt Row 9',
             gif: '../images/lats/lats9.gif',
         },
         {
-            title: 'Spider Curl 10',
+            title: 'T-bar Row 10',
             gif: '../images/lats/lats10.gif',
-        },
+        }
     ];
 
 export const gifDataBiceps = [
@@ -246,15 +246,15 @@ export const gifDataTriceps = [
             gif: '../images/triceps/triceps7.gif',
         },
         {
-            title: 'Dumbbell Side Lateral Raise 8',
+            title: 'Cable One-Arm Straight PullDown 8',
             gif: '../images/triceps/triceps8.gif',
         },
         {
-            title: 'triceps UpRightRow 9',
+            title: 'Cable One-Arm Side Pulldown 9',
             gif: '../images/triceps/triceps9.gif',
         },
         {
-            title: 'Dumbbell Shrug Traps 10',
+            title: 'Triceps Dips 10',
             gif: '../images/triceps/triceps10.gif',
         },
     ];
@@ -330,19 +330,7 @@ export const gifDataForearms = [
         {
             title: 'Cable OneArm Wrist Curl 7',
             gif: '../images/forearm/forearm7.gif',
-        },
-        {
-            title: 'Dumbbell Side Lateral Raise 8',
-            gif: '../images/forearm/forearm8.gif',
-        },
-        {
-            title: 'forearm UpRightRow 9',
-            gif: '../images/forearm/forearm9.gif',
-        },
-        {
-            title: 'Dumbbell Shrug Traps 10',
-            gif: '../images/forearm/forearm10.gif',
-        },
+        }
     ];
 
 // <----------------    Video Data    ----------------------> //
