@@ -34,7 +34,6 @@ const AboutScreen = memo(() => {
                                 className="headerIconback" />
                             <h4>Back</h4>
                         </div>
-                        
                     </div>
                 
                 {/* ---------    main div   ----------- */}
@@ -42,13 +41,13 @@ const AboutScreen = memo(() => {
                     <div className='cardcontent'>
                         <div className='card-cover-image'>
                         <img
-                            src='./images/profile/Sanathcover1.jpg'
+                            src='./images/Mygym/Gymimg1.jpg'
                             alt='Cardimages here'
                             >
                         </img>
                         <div className='card-profile-image'>
                             <img
-                                src='./images/profile/Sanath1.jpg'
+                                src='./images/Mygym/Kiran.png'
                                 alt='Cardimages here'
                                 >
                             </img>
@@ -59,7 +58,7 @@ const AboutScreen = memo(() => {
                         <div className='cardtext-cont'>
                             <div className='cardtitle-cont'>
                             <h2>
-                                Sanath S Karanth
+                                Kiran Sagar
                             </h2>
                             </div>
                             <div className='carddesp-cont'>
@@ -67,28 +66,28 @@ const AboutScreen = memo(() => {
                                 icon={faEnvelope} 
                                 size="sm"
                                 className='iconstyle'/>
-                            <h6>sanathsk97@gmail.com</h6>
+                            <h6>kiran@gmail.com</h6>
                             </div>
                             <div className='carddesp-cont'>
                             <FontAwesomeIcon 
                                 icon={faPhone} 
                                 size="sm"
                                 className='iconstyle'  />
-                            <h6>+91 9449685219</h6>
+                            <h6>+91 7353321444</h6>
                             </div>
                             <div className='carddesp-cont'>
                             <FontAwesomeIcon 
                                 icon={faGlobe} 
                                 size="sm"
                                 className='iconstyle'  />
-                            <h6>karantharts.netlify.com</h6>
+                            <h6>mygymfitness.netlify.com</h6>
                             </div>
                             <div className='carddesp-cont'>
                             <FontAwesomeIcon 
                                 icon={faLocationDot} 
                                 size="sm"
                                 className='iconstyle'  />
-                            <h6>Bangalore</h6>
+                            <h6>Gopala, Shimoga</h6>
                             </div>
 
                             
